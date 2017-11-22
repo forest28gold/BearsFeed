@@ -1,0 +1,43 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SVProgressHUD.h>
+    #import <UIColor-HexString/UIColor+HexString.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MessageUI/MessageUI.h>
+    #import <SDWebImage/UIImageView+WebCache.h>
+    #import "Backendless.h"
+    #import "UITableView+DragLoad.h"
+    #import <TTTAttributedLabel.h>
+
+    #import <DMActivityInstagram.h>
+
+    #import "Global.h"
+    #import "GlobalData.h"
+    #import "DataModel.h"
+    #import "DBHandler.h"
+    #import "BFUtility.h"
+    #import "PostData.h"
+    #import "CommentData.h"
+    #import "FeedData.h"
+
+    #import "Post.h"
+    #import "Comment.h"
+    #import "Notification.h"
+    #import "Target.h"
+
+#endif

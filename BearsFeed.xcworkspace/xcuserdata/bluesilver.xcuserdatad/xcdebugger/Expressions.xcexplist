@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BFMainViewController viewDidLoad]:BFMainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalData sharedGlobalData].g_userData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[BubbleConfig getBubbleInfoArray]:BubbleConfig.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalData sharedGlobalData].g_arrayTarget">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__40-[BFLoginViewController login:password:]_block_invoke:BFLoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalData sharedGlobalData].g_userData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__50-[BFForgetPasswordViewController onSendLoginLink:]_block_invoke:BFForgetPasswordViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "emailUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
